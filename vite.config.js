@@ -5,5 +5,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     chunkSizeWarningLimit: 1000  // raise limit to 1000KB
+  },
+  base: "/SyllabusMastery/",
   }
-})
+)
